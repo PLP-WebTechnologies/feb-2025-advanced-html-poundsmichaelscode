@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structured HTML Page</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+        <li>Fourth Item</li>
+        <li>Fifth Item</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/3401402/pexels-photo-3401402.jpeg?auto=compress&cs=tinysrgb&w=600" alt="lady on laptop from Pexels" width="600">
+
+    <!-- Contacts Table -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>+1234567890</td>
+                <td>johndoe@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Elm St</td>
+                <td>+1987654321</td>
+                <td>janesmith@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>789 Oak St</td>
+                <td>+1122334455</td>
+                <td>michaelbrown@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Lisa White</td>
+                <td>159 Pine St</td>
+                <td>+6677889900</td>
+                <td>lisawhite@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>James Black</td>
+                <td>357 Birch St</td>
+                <td>+5544332211</td>
+                <td>jamesblack@yahoo.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select Country</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">Nigeria </option>
+            <option value="UK">Kenyan </option>
+        </select>
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkboxes -->
+        <p>Interests:</p>
+        <input type="checkbox" id="sports" name="interests" value="Sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="Music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="travel" name="interests" value="Travel">
+        <label for="travel">Travel</label>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
